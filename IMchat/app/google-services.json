@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "448456501888",
+    "firebase_url": "https://im-chat-8add2.firebaseio.com",
+    "project_id": "im-chat-8add2",
+    "storage_bucket": "im-chat-8add2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448456501888:android:5bf0642101c4e5c8ce5465",
+        "android_client_info": {
+          "package_name": "rex.example.imchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448456501888-6s622cd217g9lrv7je2i2o4catd5abm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG4P3p-Geu4aeKnn__sEwaoqWtCMQoc4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448456501888-6s622cd217g9lrv7je2i2o4catd5abm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

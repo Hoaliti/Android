@@ -1,5 +1,8 @@
 package rex.example.imchat.presenter
 
+import com.google.firebase.FirebaseApp
+import com.google.firebase.FirebaseOptions
+import com.google.firebase.auth.FirebaseAuth
 import rex.example.imchat.contract.SplashContract
 
 class SplashPresenter(val view:SplashContract.View) : SplashContract.Presenter{
@@ -12,6 +15,6 @@ class SplashPresenter(val view:SplashContract.View) : SplashContract.Presenter{
     }
 
     private fun isLoggedIn(): Boolean {
-        return false
+        return FirebaseAuth.getInstance().currentUser != null
     }
 }
