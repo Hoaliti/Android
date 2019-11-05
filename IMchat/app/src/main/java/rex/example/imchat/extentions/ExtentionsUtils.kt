@@ -1,7 +1,7 @@
 package rex.example.imchat.extentions
 
 fun String.isValidUserName():Boolean{
-    return this.matches(Regex("^[A-z]+[A-z0-9_-]*\\\\@[A-z0-9]+\\\\.[A-z]+$"))
+    return this.matches(Regex("^([\\w-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([\\w-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$"))
 }
 
 fun String.isValidPassword():Boolean{
