@@ -8,6 +8,7 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import org.jetbrains.anko.doAsync
 import rex.example.imchat.contract.RegisterContract
 import rex.example.imchat.extentions.isValidPassword
 import rex.example.imchat.extentions.isValidUserName
@@ -34,20 +35,23 @@ class RegisterPresenter(val view:RegisterContract.View) : RegisterContract.Prese
     }
 
     private fun registerFirebase(userName: String, password: String,auth: FirebaseAuth) {
-        auth.createUserWithEmailAndPassword(userName,password).addOnCompleteListener {
-            if(it.isSuccessful){
-                val uid : String = auth.currentUser!!.uid
-                val reference : DatabaseReference = FirebaseDatabase.getInstance().getReference("Users").child(uid)
-                val hashMap = HashMap<String,String>()
-                hashMap["id"] = uid
-                hashMap["userName"] = userName
-                hashMap["password"] = password
-                reference.setValue(hashMap)
-                view.onRegisterSuccess()
-            }else{
-                view.onRegisterFailed()
+        doAsync {
+            auth.createUserWithEmailAndPassword(userName,password).addOnCompleteListener {
+                if(it.isSuccessful){
+                    val uid : String = auth.currentUser!!.uid
+                    val reference : DatabaseReference = FirebaseDatabase.getInstance().getReference("Users").child(uid)
+                    val hashMap = HashMap<String,String>()
+                    hashMap["id"] = uid
+                    hashMap["userName"] = userName
+                    hashMap["password"] = password
+                    reference.setValue(hashMap)
+                    view.onRegisterSuccess()
+                }else{
+                    view.onRegisterFailed()
+                }
             }
         }
+
 
     }
 }
