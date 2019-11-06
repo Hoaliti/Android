@@ -1,9 +1,10 @@
-package rex.example.imchat
+package rex.example.imchat.ui.activity
 
 import android.os.Handler
 import android.util.Log
 import rex.example.imchat.contract.SplashContract
 import org.jetbrains.anko.startActivity
+import rex.example.imchat.R
 import rex.example.imchat.presenter.SplashPresenter
 
 
@@ -31,7 +32,7 @@ class SplashActivity : BaseActivity(), SplashContract.View{
             Log.d(TAG,"start Login Activity in 2s")
             startActivity<LoginActivity>()
             finish()
-        },DELAY)
+        }, DELAY)
     }
     //跳转到主界面
     override fun onLoggedIn() {

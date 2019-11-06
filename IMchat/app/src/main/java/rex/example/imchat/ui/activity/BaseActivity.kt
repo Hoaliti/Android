@@ -1,4 +1,4 @@
-package rex.example.imchat
+package rex.example.imchat.ui.activity
 
 import android.app.ProgressDialog
 import android.content.Context

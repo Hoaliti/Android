@@ -1,7 +1,8 @@
-package rex.example.imchat
+package rex.example.imchat.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import rex.example.imchat.R
 
 class MainActivity : AppCompatActivity() {
 

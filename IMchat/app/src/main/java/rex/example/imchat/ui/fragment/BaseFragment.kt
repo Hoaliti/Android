@@ -1,4 +1,4 @@
-package rex.example.imchat
+package rex.example.imchat.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

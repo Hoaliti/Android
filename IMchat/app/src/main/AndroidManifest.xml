@@ -28,12 +28,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".app.IMApplicatition">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.MainActivity">
 
 
         </activity>
 
-        <activity android:name=".SplashActivity">
+        <activity android:name=".ui.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,8 +41,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ui.activity.LoginActivity"/>
+        <activity android:name=".ui.activity.RegisterActivity" />
     </application>
 
 </manifest>

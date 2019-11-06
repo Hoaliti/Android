@@ -1,12 +1,11 @@
-package rex.example.imchat
+package rex.example.imchat.ui.activity
 
 
 
-import android.view.KeyEvent
-import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_register.*
 import org.jetbrains.anko.toast
+import rex.example.imchat.R
 import rex.example.imchat.contract.RegisterContract
 import rex.example.imchat.presenter.RegisterPresenter
 

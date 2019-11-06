@@ -1,16 +1,13 @@
-package rex.example.imchat
+package rex.example.imchat.ui.activity
 
 import android.content.pm.PackageManager
-import android.view.KeyEvent
-import android.widget.TextView
-import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import kotlinx.android.synthetic.main.activity_login.*
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
+import rex.example.imchat.R
 import rex.example.imchat.contract.LoginContract
 import rex.example.imchat.presenter.LoginPresenter
-import java.util.jar.Manifest
 
 class LoginActivity : BaseActivity(),LoginContract.View{
 
