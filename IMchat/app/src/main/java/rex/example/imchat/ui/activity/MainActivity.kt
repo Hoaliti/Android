@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import rex.example.imchat.R
+import rex.example.imchat.factory.FragmentFactory
 
 class MainActivity : BaseActivity() {
     override fun getLayoutResId(): Int {
@@ -14,7 +15,8 @@ class MainActivity : BaseActivity() {
         super.init()
         bottomBar.setOnTabSelectListener { tabId ->
             val beginTransation = supportFragmentManager.beginTransaction()
-
+            beginTransation.replace(R.id.fragment_frame,FragmentFactory.instance.getFragment(tabId)!!)
+            beginTransation.commit()
         }
     }
     
