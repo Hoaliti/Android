@@ -62,4 +62,9 @@ class RegisterActivity : BaseActivity(),RegisterContract.View{
         toast(R.string.register_failed)
     }
 
+    override fun onUserAlreadyTaken() {
+        dismissProgress()
+        toast(R.string.user_already_exist)
+    }
+
 }
