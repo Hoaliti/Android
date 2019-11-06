@@ -2,7 +2,7 @@ package rex.example.imchat.contract
 
 interface RegisterContract {
     interface Presenter:BasePresenter{
-        fun register(userName:String,password:String)
+        fun register(userName:String,password:String,confirmPassword:String)
     }
 
     interface View{
