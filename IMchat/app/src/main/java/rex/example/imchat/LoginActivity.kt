@@ -18,6 +18,9 @@ class LoginActivity : BaseActivity(),LoginContract.View{
 
     override fun init() {
         super.init()
+        newUser.setOnClickListener{
+            startActivity<RegisterActivity>()
+        }
         login.setOnClickListener{
             login()
         }
