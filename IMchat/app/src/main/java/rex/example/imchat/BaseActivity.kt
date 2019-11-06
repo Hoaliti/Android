@@ -5,9 +5,9 @@ import android.content.Context
 import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.auth.FirebaseAuth
 
 abstract class BaseActivity:AppCompatActivity(){
-
     val progressDialog by lazy {
         ProgressDialog(this)
     }

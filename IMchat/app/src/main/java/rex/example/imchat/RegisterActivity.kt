@@ -4,6 +4,7 @@ package rex.example.imchat
 
 import android.view.KeyEvent
 import android.widget.TextView
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_register.*
 import org.jetbrains.anko.toast
 import rex.example.imchat.contract.RegisterContract
@@ -27,7 +28,8 @@ class RegisterActivity : BaseActivity(),RegisterContract.View{
         val userNameString = userName.text.trim().toString()
         val passwordString = password.text.trim().toString()
         val confirmPasswordString = confirmPassword.text.trim().toString()
-        presenter.register(userNameString,passwordString,confirmPasswordString)
+        val auth = FirebaseAuth.getInstance()
+        presenter.register(userNameString,passwordString,confirmPasswordString,auth)
     }
     override fun getLayoutResId(): Int {
         return R.layout.activity_register
@@ -51,6 +53,7 @@ class RegisterActivity : BaseActivity(),RegisterContract.View{
 
     override fun onRegisterSuccess() {
         dismissProgress()
+        toast(R.string.register_success)
         finish()
     }
 
