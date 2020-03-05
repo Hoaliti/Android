@@ -1,0 +1,248 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="rex.example.imchat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml
+10
+11    <!-- Required -->
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:7:5-66
+12-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:9:5-71
+14-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:9:22-68
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:10:5-65
+15-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:10:22-62
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+18-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:13:5-14:47
+18-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:13:22-81
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:15:5-79
+19-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:15:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:16:5-76
+20-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:16:22-73
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:17:5-76
+21-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:17:22-73
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:18:5-68
+22-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:18:22-65
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+23-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:19:5-80
+23-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:19:22-77
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:20:5-75
+24-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:20:22-72
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:21:5-81
+25-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:21:22-78
+26
+27    <!-- Required by older versions of Google Play services to create IID tokens -->
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+30
+31    <application
+31-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:23:5-46:19
+32        android:name="rex.example.imchat.app.IMApplicatition"
+32-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:30:9-44
+33        android:allowBackup="true"
+33-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:24:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\5fef2ca0088a5d112630ded2c6554bc5\core-1.1.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:25:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:26:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:27:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:28:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:29:9-40
+42        <activity android:name="rex.example.imchat.ui.activity.MainActivity" >
+42-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:31:9-34:20
+42-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:31:19-59
+43        </activity>
+44        <activity android:name="rex.example.imchat.ui.activity.SplashActivity" >
+44-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:36:9-42:20
+44-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:36:19-61
+45            <intent-filter>
+45-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:37:13-41:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:38:17-69
+46-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:40:17-77
+48-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:40:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="rex.example.imchat.ui.activity.LoginActivity" />
+51-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:44:9-62
+51-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:44:19-60
+52        <activity android:name="rex.example.imchat.ui.activity.RegisterActivity" />
+52-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:45:9-66
+52-->C:\Users\mydea\OneDrive\Desktop\Study\Android\Android\IMchat\app\src\main\AndroidManifest.xml:45:19-63
+53        <activity
+53-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+54            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+54-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+55            android:excludeFromRecents="true"
+55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+56            android:exported="true"
+56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+57            android:launchMode="singleTask"
+57-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+58            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+58-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+60
+61        <service
+61-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\8603cb43a606b5823dfa6bc1d394dc88\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+66                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+66-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\a8e9fa389d54c3242ae98b255185e59a\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-database:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\84accfb9dfd9ddd28e5e367c52cb2d5a\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+69                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+69-->[com.google.firebase:firebase-database:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\84accfb9dfd9ddd28e5e367c52cb2d5a\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-database:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\84accfb9dfd9ddd28e5e367c52cb2d5a\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+71            <meta-data
+71-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\7229886b76978e6a0b1f84aa9dfceff7\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+72                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+72-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\7229886b76978e6a0b1f84aa9dfceff7\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\7229886b76978e6a0b1f84aa9dfceff7\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+75-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+77        </service>
+78
+79        <receiver
+79-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+80            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+80-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+81            android:exported="true"
+81-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+82            android:permission="com.google.android.c2dm.permission.SEND" >
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+83            <intent-filter>
+83-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+84                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+84-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+84-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\4a99e7ff070b428204e701b56bd0b0b6\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+85            </intent-filter>
+86        </receiver>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\9225773ee7144fbdfde270fbabd8828c\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\9225773ee7144fbdfde270fbabd8828c\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\9225773ee7144fbdfde270fbabd8828c\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\9225773ee7144fbdfde270fbabd8828c\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\8603cb43a606b5823dfa6bc1d394dc88\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\8603cb43a606b5823dfa6bc1d394dc88\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+95            android:authorities="rex.example.imchat.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\8603cb43a606b5823dfa6bc1d394dc88\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\8603cb43a606b5823dfa6bc1d394dc88\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:19.2.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\8603cb43a606b5823dfa6bc1d394dc88\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+98
+99        <receiver
+99-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+100            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+100-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+102            android:exported="false" >
+102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+103        </receiver>
+104        <receiver
+104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+105            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+105-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+107            android:exported="true"
+107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+108            android:permission="android.permission.INSTALL_PACKAGES" >
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+109            <intent-filter>
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+110                <action android:name="com.android.vending.INSTALL_REFERRER" />
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+111            </intent-filter>
+112        </receiver>
+113
+114        <service
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+115            android:name="com.google.android.gms.measurement.AppMeasurementService"
+115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+117            android:exported="false" />
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+118        <service
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+119            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" />
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\ed65fb0b1bad2507142d1e2acec23778\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\dc89ac8de54a742db2f1543e2a7ff6a5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\dc89ac8de54a742db2f1543e2a7ff6a5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mydea\.gradle\caches\transforms-2\files-2.1\dc89ac8de54a742db2f1543e2a7ff6a5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+127    </application>
+128
+129</manifest>
